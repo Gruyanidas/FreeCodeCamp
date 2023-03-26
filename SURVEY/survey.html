@@ -10,16 +10,68 @@
 </head>
 
 <body>
-
-
     <h1 id="title">freeCodeCamp Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
 
     <form method="post" id="survey-form">
 
-        <label for="name"><input type="text" id="name" />Name</label>
+        <label for="name"><input type="text" id="name" required />Name</label>
 
         <label for="email"><input type="email" id="email" required />Email</label>
+        <label for="age"><input type="number" id="age"/>Age(optional)</label>
+        <label for="role">Which option best describes your current role?
+            <select id="role" name="role">
+                <option value="">Select current role</option>
+                <option value="1">Student</option>
+                <option value="2">Full time job</option>
+                <option value="3">Full time learner</option>
+                <option value="4">Prefer not to say</option>
+                <option value="5">Other</option>
+            </select>
+        </label>
+
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <label for="def"><input type="radio" id="def" name="feature" />Definitely</label>
+        <label for="maybe"><input type="radio" id="maybe" name="feature" />Maybe</label>
+        <label for="notsure"><input type="radio" id="notsure" name="feature" />Not sure</label>
+
+        <label for="feature">What is your favourite feature of freeCodeCamp?
+            <select id="feature" name="feature">
+                <option value="">Select an option</option>
+                <option value="1">Challenges</option>
+                <option value="2">Projects</option>
+                <option value="3">Community</option>
+                <option value="4">Open Source</option>
+            </select>
+        </label>
+
+        <label for="improvement">What would you like to see improved? (Check all that apply)></label>
+
+        <input type="checkbox" id="improvement" name="front-end" value="Front-end Projects">
+        <label for="improvement"> Front-end Projects</label><br>
+
+        <input type="checkbox" id="improvement1" name="front-end" value="Front-end Projects">
+        <label for="improvement1" name="back-end" value="Back-end Projects">Back-end Projects</label><br>
+
+        <input type="checkbox" id="improvement2" name="Data Visualization" value="Data Visualization">
+        <label for="improvement2" name="data" value="Data Visualization">Data Visualization</label><br>
+
+        <input type="checkbox" id="improvement3" name="Challenges" value="Challenges">
+        <label for="improvement3" name="Challenges" value="Challenges">Challenges</label><br>
+
+        <input type="checkbox" id="improvement3" name="Challenges" value="Challenges">
+        <label for="improvement3" name="Challenges" value="Challenges">Challenges</label><br>
+
+        <input type="checkbox" id="improvement4" name="Open Source Community" value="Open Source Community">
+        <label for="improvement4" name="Open Source Community" value="Open Source Community">Open Source
+            Community</label><br>
+
+
+
+
+
+
+
 
 
 
