@@ -5,12 +5,33 @@ body {
   color: #f5f6f7;
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
+  z-index: 1;
 }
+
+/* .background {
+  z-index: 10;
+  background-color:rgba(15, 3, 54, 0.5);
+
+} */
 
 .question {
   margin-top: 1rem;
   margin-bottom: 1.2rem;
   display: block;
+}
+
+#name,
+#email,
+#number,
+#role,
+#dropdown,
+#suggestions {
+  width: 50%;
+  height: 1.5rem;
+  padding: 0.2rem;
+  border: solid 2px rgb(18, 103, 221);
+  border-radius: 7px;
+  background-color: rgb(249, 255, 226);
 }
 
 #survey-form {
@@ -21,6 +42,7 @@ body {
   background-color: rgb(2, 2, 47);
   width: 40%;
   padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+  z-index: 10;
 }
 
 .header {
