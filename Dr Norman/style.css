@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 2rem;
+    background-color: rgb(39, 39, 39);
+    color: rgb(200, 195, 188);
+    position: relative;
+}
+
+header {
+    text-align: center;
+}
+
+#title {
+    font-size: 2.4rem;
+    margin-top: 50px;
+}
+
+h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#img-background {
+    background-color: rgb(27, 27, 27);
+    margin: 0rem 2rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.8rem;
+
+}
+
+#img {
+    position: relative;
+    left: calc(50% - 512px);
+}
+
+#image-caption {
+    margin-left: 2rem;
+    margin-top: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.timeline {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li > span {
+    font-weight: bolder;
+}
+li {
+    margin: 1.2rem 0;
+}
+
+main > p {
+    font-size: 1.2rem;
+    margin-top: 3.5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+a {
+    color: rgb(156, 147, 134);
+}
+
+.last {
+    padding-left: 40px;
+    margin-top: 3rem;
+    font-style: italic;
+    padding: 0 40px;
+}
+
